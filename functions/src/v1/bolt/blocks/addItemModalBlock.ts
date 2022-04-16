@@ -8,7 +8,7 @@ export const addItemModalBlock = (
       type: "section",
       text: {
         type: "mrkdwn",
-        text: "気軽に追加してね。間違っていたら誰かが修正してくれるはず。",
+        text: "気軽に追加してくださいね。もし間違っていたら誰かが修正してくれますよ。",
       },
     },
     {
