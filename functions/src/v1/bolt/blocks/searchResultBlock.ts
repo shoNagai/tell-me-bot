@@ -52,7 +52,7 @@ export const searchResultBlock = ({
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "おっけ〜。これだよ！",
+          text: "はいっ！ こちらになりますね！",
         },
       },
       {
@@ -92,7 +92,7 @@ export const searchResultBlock = ({
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "関係ありそうな用語が見つかったヨ！",
+          text: "関係がありそうな用語が見つかりましたね！",
         },
       },
       {
@@ -117,7 +117,7 @@ export const searchResultBlock = ({
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "もし新しい用語の場合は、こちらで対応してね。",
+          text: "もし新しい用語でしたら、こちらから対応してくださいね。",
         },
       },
       {
@@ -145,14 +145,14 @@ export const searchResultBlock = ({
       type: "section",
       text: {
         type: "mrkdwn",
-        text: "ごめ〜ん... 見つからなかった...",
+        text: "ごめんなさい... 見つからなかったですね...",
       },
     },
     {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: "新しい用語だと思うから追加してね",
+        text: "新しい用語だと思いますので、ぜひ登録してくださいね",
       },
     },
     {

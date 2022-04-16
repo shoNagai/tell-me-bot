@@ -12,7 +12,7 @@ export const addedItemBlock = (
       type: "section",
       text: {
         type: "mrkdwn",
-        text: "新しい用語を登録したよ！",
+        text: "新しい用語のご登録 ありがとうございます！",
       },
     },
     {

@@ -6,7 +6,7 @@ export const askBlock = (targetWord: string): (Block | KnownBlock)[] => {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: "この用語を聞かれたけどわからなかった〜。誰か用語の説明を追加して〜。",
+        text: "こちらの用語を聞かれましたが わかりませんでした... どなたか用語の説明を追加していただけますか？",
       },
     },
     {
@@ -46,7 +46,7 @@ export const askCompleteBlock = (
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `おっけ〜。「${targetWord}」について #${channelName} で質問したよー`,
+        text: `はいっ！ 「${targetWord}」について #${channelName} で質問させていただきました`,
       },
     },
   ];
